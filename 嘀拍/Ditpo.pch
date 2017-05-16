@@ -1,0 +1,14 @@
+//
+//  Ditpo.pch
+//  嘀拍
+//
+//  Created by JIng on 2017/5/8.
+//  Copyright © 2017年 JIng. All rights reserved.
+//
+
+#ifndef Ditpo_pch
+#define Ditpo_pch
+
+#import  "Ditpo.h"
+
+#endif /* Ditpo_pch */

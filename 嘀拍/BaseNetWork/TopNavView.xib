@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopNavView">
+            <connections>
+                <outlet property="constantLeftBtnLeftMargin" destination="EzN-j9-teK" id="8Qq-bb-coS"/>
+                <outlet property="constantRightBtnRightMargin" destination="UYW-0K-sZG" id="twV-5I-J6x"/>
+                <outlet property="constantViewSepHeight" destination="OS1-dL-mQf" id="j2W-xU-M6f"/>
+                <outlet property="leftNavBtn" destination="cCT-pm-bpk" id="Unn-R9-gEt"/>
+                <outlet property="rightNavBtn" destination="Lm6-kR-Vks" id="aUb-Ta-xcy"/>
+                <outlet property="titleLabel" destination="htA-Eq-hvy" id="H4e-YQ-mGn"/>
+                <outlet property="viewSep" destination="Wlc-QM-nyp" id="edG-zF-DCO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="4Il-Vv-vmv">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wlc-QM-nyp">
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="OS1-dL-mQf"/>
+                    </constraints>
+                </view>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lm6-kR-Vks">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="xug-9B-2Am"/>
+                    </constraints>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCT-pm-bpk">
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="ufl-74-dV3"/>
+                    </constraints>
+                    <state key="normal" image="back-icon-black.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" text="大嘴巴" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="htA-Eq-hvy">
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cCT-pm-bpk" firstAttribute="leading" secondItem="4Il-Vv-vmv" secondAttribute="leading" constant="-15" id="EzN-j9-teK"/>
+                <constraint firstAttribute="bottom" secondItem="htA-Eq-hvy" secondAttribute="bottom" id="FBK-Xm-60r"/>
+                <constraint firstItem="htA-Eq-hvy" firstAttribute="top" secondItem="4Il-Vv-vmv" secondAttribute="top" id="HXS-2M-BYf"/>
+                <constraint firstItem="Wlc-QM-nyp" firstAttribute="leading" secondItem="4Il-Vv-vmv" secondAttribute="leading" id="Ky6-IY-Hr6"/>
+                <constraint firstAttribute="bottom" secondItem="cCT-pm-bpk" secondAttribute="bottom" id="Ld4-hf-pVQ"/>
+                <constraint firstAttribute="bottom" secondItem="Wlc-QM-nyp" secondAttribute="bottom" id="QHx-Jw-du9"/>
+                <constraint firstAttribute="trailing" secondItem="Lm6-kR-Vks" secondAttribute="trailing" constant="-18" id="UYW-0K-sZG"/>
+                <constraint firstItem="htA-Eq-hvy" firstAttribute="leading" secondItem="cCT-pm-bpk" secondAttribute="trailing" constant="-3" id="e39-P5-hW2"/>
+                <constraint firstAttribute="trailing" secondItem="Wlc-QM-nyp" secondAttribute="trailing" id="hcH-RF-uBa"/>
+                <constraint firstAttribute="bottom" secondItem="Lm6-kR-Vks" secondAttribute="bottom" id="i2U-sU-mkw"/>
+                <constraint firstItem="cCT-pm-bpk" firstAttribute="top" secondItem="4Il-Vv-vmv" secondAttribute="top" id="lDh-NK-Zwd"/>
+                <constraint firstItem="Lm6-kR-Vks" firstAttribute="leading" secondItem="htA-Eq-hvy" secondAttribute="trailing" id="ovT-D1-kIe"/>
+                <constraint firstItem="Lm6-kR-Vks" firstAttribute="top" secondItem="4Il-Vv-vmv" secondAttribute="top" id="tAf-6T-aNs"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="2.5" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back-icon-black.png" width="10" height="18"/>
+    </resources>
+</document>
