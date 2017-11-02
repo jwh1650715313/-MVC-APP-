@@ -62,8 +62,6 @@
 		3F6854E51EC080A2003E59DF /* Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6854CF1EC080A2003E59DF /* Date.m */; };
 		3F6854E61EC080A2003E59DF /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6854D11EC080A2003E59DF /* ImageUtil.m */; };
 		3F6854E71EC080A2003E59DF /* NSMutableDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6854D31EC080A2003E59DF /* NSMutableDictionary+JSON.m */; };
-		3F6854E81EC080A2003E59DF /* NSObject+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6854D51EC080A2003E59DF /* NSObject+Json.m */; };
-		3F6854E91EC080A2003E59DF /* NSString+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6854D71EC080A2003E59DF /* NSString+Json.m */; };
 		3F6854EA1EC080A2003E59DF /* NSUserDefaultTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6854D91EC080A2003E59DF /* NSUserDefaultTools.m */; };
 		3F6854EB1EC080A2003E59DF /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6854DB1EC080A2003E59DF /* UIImage+Rotate.m */; };
 		3F6854EC1EC080A2003E59DF /* UIImage+Rotate_Flip.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6854DD1EC080A2003E59DF /* UIImage+Rotate_Flip.m */; };
@@ -263,10 +261,6 @@
 		3F6854D11EC080A2003E59DF /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
 		3F6854D21EC080A2003E59DF /* NSMutableDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+JSON.h"; sourceTree = "<group>"; };
 		3F6854D31EC080A2003E59DF /* NSMutableDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+JSON.m"; sourceTree = "<group>"; };
-		3F6854D41EC080A2003E59DF /* NSObject+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Json.h"; sourceTree = "<group>"; };
-		3F6854D51EC080A2003E59DF /* NSObject+Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Json.m"; sourceTree = "<group>"; };
-		3F6854D61EC080A2003E59DF /* NSString+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Json.h"; sourceTree = "<group>"; };
-		3F6854D71EC080A2003E59DF /* NSString+Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Json.m"; sourceTree = "<group>"; };
 		3F6854D81EC080A2003E59DF /* NSUserDefaultTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUserDefaultTools.h; sourceTree = "<group>"; };
 		3F6854D91EC080A2003E59DF /* NSUserDefaultTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaultTools.m; sourceTree = "<group>"; };
 		3F6854DA1EC080A2003E59DF /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
@@ -769,10 +763,6 @@
 				3F6854D11EC080A2003E59DF /* ImageUtil.m */,
 				3F6854D21EC080A2003E59DF /* NSMutableDictionary+JSON.h */,
 				3F6854D31EC080A2003E59DF /* NSMutableDictionary+JSON.m */,
-				3F6854D41EC080A2003E59DF /* NSObject+Json.h */,
-				3F6854D51EC080A2003E59DF /* NSObject+Json.m */,
-				3F6854D61EC080A2003E59DF /* NSString+Json.h */,
-				3F6854D71EC080A2003E59DF /* NSString+Json.m */,
 				3F6854D81EC080A2003E59DF /* NSUserDefaultTools.h */,
 				3F6854D91EC080A2003E59DF /* NSUserDefaultTools.m */,
 				3F6854DA1EC080A2003E59DF /* UIImage+Rotate.h */,
@@ -1216,12 +1206,10 @@
 				3F6855351EC085BB003E59DF /* MJExtensionConst.m in Sources */,
 				3F6854811EC07AC0003E59DF /* MBProgressHUD+Add.m in Sources */,
 				3F6854B21EC07E06003E59DF /* SDWebImagePrefetcher.m in Sources */,
-				3F6854E91EC080A2003E59DF /* NSString+Json.m in Sources */,
 				3F6855511EC085BB003E59DF /* UIScrollView+MJRefresh.m in Sources */,
 				3F6854AA1EC07E06003E59DF /* MKAnnotationView+WebCache.m in Sources */,
 				3F6855431EC085BB003E59DF /* MJRefreshHeader.m in Sources */,
 				3F68553B1EC085BB003E59DF /* NSObject+MJCoding.m in Sources */,
-				3F6854E81EC080A2003E59DF /* NSObject+Json.m in Sources */,
 				3F6854B41EC07E06003E59DF /* UIImage+GIF.m in Sources */,
 				3F6855841EC17568003E59DF /* OrderViewController.m in Sources */,
 				3F6854311EC0717B003E59DF /* AFHTTPSessionManager.m in Sources */,
